@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Habit Tracker</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <link />
+    <link rel="stylesheet" href="/css/app.css" type="text/css" />
+    <script src="/js/auth.js" defer></script>
+    <script src="/js/index.js" defer></script>
+  </head>
+  <body class="bg-white text-slate-900">
+    <header class="flex justify-center">
+      <div
+        class="flex flex-col gap-2 sm:flex-row m-3 justify-between items-center w-full p-3 max-w-5xl bg-slate-300 rounded-2xl"
+      >
+        <a href="/" class="flex gap-2 cursor-pointer select-none">
+          <img class="text-black h7" src="/images/logo.svg" />
+
+          <div class="font-bold">Habit Tracker</div></a
+        >
+
+        <a
+          id="account-button"
+          href="/register.html"
+          class="text-center w-full sm:w-auto text-sm font-bold text-white px-5 py-2 bg-primary hover:bg-primary/50 cursor-pointer rounded-xl"
+          >Getting Started</a
+        >
+      </div>
+    </header>
+
+    <main class="flex flex-col items-center">
+      <section
+        class="flex flex-col sm:flex-row gap-12 w-full max-w-5xl mt-14 px-3"
+      >
+        <div class="flex flex-col justify-center gap-3 flex-1 items-start">
+          <h2 class="text-5xl font-bold">Build Strong Habits</h2>
+          <p>Track your habits, build streaks, unlock your very best</p>
+          <a
+            id="account-button2"
+            href="/register.html"
+            class="text-center w-full sm:w-auto text-sm font-bold text-white px-5 py-2 bg-primary hover:brightness-105 cursor-pointer rounded-xl"
+            >Getting Started</a
+          >
+        </div>
+        <div class="flex flex-col justify-center flex-1">
+          <div class="aspect-video w-full bg-surface-200">
+            <img src="/images/demo.png" />
+          </div>
+        </div>
+      </section>
+      <section
+        class="flex flex-col items center gap-6 w-full max-w-5xl mt-12 px-3"
+      >
+        <div class="flex flex-col gap-1">
+          <h3 class="text-center font-bold text-xl">
+            Start Building Strong Habits
+          </h3>
+          <p class="text-center">Everything You Need in The One Place</p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-6 w-full">
+          <div class="flex flex-col flex-1 gap-1 p-6 bg-surface rounded-xl">
+            <h3 class="font-bold text-xl">Add Tasks</h3>
+            <p class="text-sm">Capture Your tasks and Habits Easliy</p>
+          </div>
+          <div class="flex flex-col flex-1 gap-1 p-6 bg-surface rounded-xl">
+            <h3 class="font-bold text-xl">Track Progress</h3>
+            <p class="text-sm">Visulize your journey and Insights</p>
+          </div>
+          <div class="flex flex-col flex-1 gap-1 p-6 bg-surface rounded-xl">
+            <h3 class="font-bold text-xl">Earn Streaks</h3>
+            <p class="text-sm">Build Lasting Momentum</p>
+          </div>
+        </div>
+      </section>
+      <section
+        class="flex flex-col items-center gap-6 w-full max-w-5xl mt-12 px-3"
+      >
+        <div class="flex flex-col gap-1">
+          <h3 class="text-center font-bold text-xl">
+            Frequently Asked Questions
+          </h3>
+          <p class="text-center">Everything You Need in The One Place</p>
+        </div>
+
+        <div class="flex flex-col gap-4 w-full max-w-3xl">
+          <!-- FAQ 1 -->
+          <div class="flex flex-col gap-1 pb-4 border-b border-black">
+            <h4 class="font-bold">Is this app free?</h4>
+            <p>Yes this app is completely free and open source!</p>
+          </div>
+          <!-- FAQ 2 -->
+          <div class="flex flex-col gap-1 pb-4 border-b border-black">
+            <h4 class="font-bold">Is this app free?</h4>
+            <p>Yes this app is completely free and open source!</p>
+          </div>
+          <!-- FAQ 3 -->
+          <div class="flex flex-col gap-1 font-bold pb-4 border-b border-black">
+            <h4 class="font-bold">Is this app free?</h4>
+            <p>Yes this app is completely free and open source!</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="p-3 flex flex-col sm:flex-row gap-3 .font-bold justify-between bg-surface-600 mt-14"
+    >
+      <a href="/">Habit Tracker</a>
+      <p>New Habits 2026</p>
+    </footer>
+  </body>
+</html>
