@@ -17,7 +17,7 @@ router.get("/", async function (req, res) {
 router.post("/add", async function (req, res) {
   try {
     const userId = req.userId;
-    const habit = await Habit.create({
+    const habit = await Habcit.create({
       userId: userId,
       name: req.body.name,
       description: req.body.description,
