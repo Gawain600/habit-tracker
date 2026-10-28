@@ -18,3 +18,12 @@ To run the application in development mode use `npm run dev`
 ### Production
 
 To run the application in the production mode use `npm start`
+
+## Deployed Application
+
+https://habit-tracker-iota-ochre.vercel.app/
+
+## Documentation
+
+Documentation can be found here:
+check out the [Documentation](DOCs.md)
